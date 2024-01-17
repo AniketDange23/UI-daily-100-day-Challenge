@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&family=Offside&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:wght@500&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  background: url("./bg.jpg") no-repeat fixed center;
+  background-size: cover;
+}
+.container {
+  margin: 5rem auto;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  /* background: #00000020; */
+  border: 1px solid #eeeeee3a;
+  box-shadow: 0px 4px 5px #00000059;
+  width: 60%;
+  border-radius: 30px;
+  height: auto;
+}
+#form-container {
+  margin: 10px;
+}
+/* left side */
+.left-side {
+  padding: 20px;
+  color: #ffffff;
+  width: 50%;
+}
+.left-side ul{
+  list-style: none;
+  color: #b2b2b2;
+}
+/* right side */
+.right-side h1{
+filter: drop-shadow(5px 2px 4px #000000c2);
+  font-weight: bold;
+  letter-spacing: 2px;
+  line-height: 60px;
+  color: #ffffff;
+}
+.language-dropdown::before {
+  content: '\25BC';
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  background: none;
+  transform: translateY(-50%);
+}
+.language-dropdown select{
+  color:#f4eded;
+  border: none;
+  outline: none !important;
+  background-color: rgba(128, 255, 0, 0.052);
+
+}
+.language-dropdown{
+  align-items: center;
+  display: flex;
+  outline: none;
+  gap: 5px;
+}
+
+.right-side {
+border-radius: 30px;
+box-shadow: 0px 4px 5px #00000059;
+
+  background: #00000019;
+
+  padding: 20px;
+  width: 50%;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+}
+.form input {
+  font: 300 0.8rem "Poppins", sans-serif;  
+margin: 5px 0;  
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  outline: none;
+  padding: 0.6rem;
+  color: #f2ecec;
+  border: none;
+  border-radius: 10px;
+  background: rgba(196, 197, 200, 0.144);
+  width: 300px;
+}
+span{
+  text-align: justify;
+    width: 300px;
+font: 400 0.8rem "Poppins", sans-serif;  
+  color: rgb(228, 228, 228);
+
+}
+#checkbox{
+  display: flex;
+gap: 10px;
+text-align: justify;
+}
+#terms {
+  width: 15px; 
+  height: 15px;
+  outline: none;
+  cursor: pointer;
+}
+.btn ,.btn-google {
+  cursor: pointer;
+  padding: 0.6rem;
+  font: 500 1rem "Poppins", sans-serif;
+  color: #f2ecec;
+  border: none;
+  border-radius: 10px;
+  background: #2baae0b3;
+  width: 300px;
+}
+.form input::placeholder {
+  color: #ffffff;
+}
+.btn-google{
+background: #4e4e4e4e;
+vertical-align: middle;
+}
+.icons-google {
+  margin-right: 20px;
+  width: 20px;
+  vertical-align: middle;
+}
+.or {
+ display: flex;
+ align-items: center; gap: 10px;
+ vertical-align: middle;
+margin:  0 4rem;
+color:#ffffff;
+}
+
+.or hr{
+  width: 200px;
+  height: 0; 
+border: 1px solid #ffffff;}
+
+
+
+/* Earth Planet */
+
