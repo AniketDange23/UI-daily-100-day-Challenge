@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  align-items: center;
+}
+.header {
+  align-items: center;
+  height: 50px;
+  background: #f5f5f5;
+  padding: 0 8rem;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: space-between;
+}
+.logo {
+  width: 60px;
+}
+.header ul {
+  display: flex;
+  list-style: none;
+}
+.header li a {
+  margin: 5px;
+  padding: 8px 20px;
+  color: rgb(14, 18, 90);
+  text-decoration: none;
+}
+.header li a:hover {
+  border-radius: 10px;
+  background: #ededed;
+}
+.btns {
+  margin: 0 2rem;
+  display: flex;
+}
+.signIn {
+  cursor: pointer;
+  background: transparent;
+  border: none;
+  font: 500 1rem "Poppins", sans-serif;
+  padding: 10px;
+}
+.signUp {
+  cursor: pointer;
+  border-radius: 20px;
+  font: 500 1rem "Poppins", sans-serif;
+
+  color: #f5f5f5;
+  background: rgb(2, 148, 208);
+  border: none;
+  padding: 8px 20px;
+}
